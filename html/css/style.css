@@ -8,7 +8,7 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html,body{
-	font-family: "Microsoft YaHei", sans-serif;
+	font-family: 'Istok Web', sans-serif;
 	background:#f9f9f9;
 }
 body a{
@@ -57,8 +57,7 @@ span {
 	padding:0;
 }
 .head-nav ul li{
-	display:inline-block;
-
+	display:inline-block;  
 }
 .head-nav ul li a{
 	color:#000000;
@@ -69,8 +68,8 @@ span {
 	padding:0.5em 1em;	
 	margin: 0 13px;
 	text-transform:uppercase;
-
-}
+	border: 2px solid rgba(255, 255, 255, 0);
+}	
 .head-nav ul li a:hover,.head-nav ul li.active a{
 	border:2px solid #000;
 	color:#000;
@@ -87,18 +86,18 @@ span {
 }
 .banner-info {
 	padding: 10em 0 0;
-	width: 90%;
+	width: 56%;
 	margin: 0 auto;
+	font-family: 'KaiTi', '_GB2312 ';
 }
 .banner-info h1 {
 	color: #000;
 	font-size: 2.5em;
-	font-weight: 400;
+	font-weight: 600;
 	margin: 1em 0em;
-	font-family: 'Lobster', cursive;
 }
 .banner-info p {
-	font-size: 1.2em;
+	font-size: 1.6em;
 	color: #000;
 	font-weight: 400;
 	line-height: 1.8em;
@@ -1249,6 +1248,9 @@ ul.comment-list .desc {
 	margin-top: 1em;
 }
 /*-- responsive design --*/
+@media screen and (max-width:1280px) {
+}
+/*-- responsive design --*/
 @media screen and (max-width:1024px) {
 .logo {
 	margin-left: 12em;
@@ -1256,7 +1258,19 @@ ul.comment-list .desc {
 .head-nav ul li a {
 	font-size: 1.1em;
 }
-
+.banner-info h1 {
+	font-size: 2em;
+}
+.banner-info {
+	padding: 5em 0 0;
+	width: 60%;
+}
+.banner-info p {
+	font-size: 1.1em;
+}
+.banner {
+	min-height: 570px;
+}
 .phase-left h2 {
 	font-size: 2em;
 }

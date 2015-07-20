@@ -11,19 +11,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="职业装定制,酒店服装定制,服装定制,劳保服装定制" />
-<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-<link href="//cdn.bootcss.com/skel/2.2.1/skel.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="//cdn.bootcss.com/skel/2.2.1/skel.css" rel="stylesheet" type="text/css" media="all">
 <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
-	function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/jquery.poptrox/2.5.1/jquery.poptrox.min.js"></script>
-<script src="//cdn.bootcss.com/flexslider/2.5.0/jquery.flexslider.js"></script>
 <script src="js/jquery.scrolly.min.js"></script>
 <script src="//cdn.bootcss.com/skel/2.2.1/skel.min.js"></script>
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.mini.js"></script>
 <script src="js/init.js"></script>
 </head>
 <body>
@@ -49,7 +47,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<ul>
 					<li><a href="index.html">主页</a></li>
 					<li><a href="about.html">关于我们</a></li>
-					<li><a href="index.html?clickId=s_products">制品展示</a></li>
+					<li><a href="products.php?pType=ryzs">荣誉证书</a></li>
 					<li><a href="#Contacts" class = "scrolly">联系我们</a></li>
 					<div class="clearfix"> </div>
 				</ul>

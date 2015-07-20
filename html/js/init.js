@@ -23,7 +23,7 @@
 		reset: 'full',
 		breakpoints: {
 			'global':	{ range: '*', href: 'css/style.css', containers: 1140, grid: { gutters: 40 } },
-			'mobile':	{ range: '-960', href: 'css/style-mobile.css', containers: '95%!', grid: { collapse: true, gutters: 20 } }
+			'mobile':	{ range: '-1024', href: 'css/style-mobile.css', containers: '90%!', grid: { collapse: true, gutters: 20 } }
 		}
 	});
 
